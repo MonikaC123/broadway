@@ -30,10 +30,18 @@ p {
   font-size: 16px;
 }
 
+p.special {
+  color: white;
+}
+
 nav {
   font-size: 18px;
   color: white;
 }
+
+a:link {
+    color:white;
+    }
 
 .divider{
   background-image: url("../images/the-flatiron-building.png");
@@ -46,12 +54,3 @@ footer {
   color: white;
   text-align: left;
   background-color: dimgray;
-
-  .hero{
-  background-image: url("../images/the-flatiron-building.png");
-  text-align: center;
-  font-size: 18px;
-  color: white;
-}
-
-}
